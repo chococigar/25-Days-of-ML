@@ -1,3 +1,5 @@
+#-*- coding: utf-8 -*-
+
 """
 Modified from original code @ https://github.com/llSourcell/Rap_Lyric_Generator/blob/master/MarkovRap.py
 """
@@ -58,3 +60,7 @@ if __name__ == '__main__':
 	startWord = input("What do you want to start your lyrics with?\n > ")
 	print("Alright, here's your lyrics:")
 	print(generateLyrics(startWord, lyricsProbDict))
+	print("lyricsFreqDict is ", lyricsFreqDict['love'])
+	print("lyricsProbDict is ", lyricsProbDict['love'])
+	print("lyricsFreqDict is ", lyricsFreqDict['fake'])
+	print("lyricsProbDict is ", lyricsProbDict['fake'])
