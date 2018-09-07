@@ -45,7 +45,7 @@ def markov_next(curr, probDict):
 				return succ
 		return random.choice(list(probDict.keys()))
 
-def generateLyrics(curr, probDict, T = 100):
+def generateLyrics(curr, probDict, T = 200):
 	lyrics = [curr]
 	for t in range(T):
 		lyrics.append(markov_next(lyrics[-1], probDict))
@@ -60,7 +60,3 @@ if __name__ == '__main__':
 	startWord = input("What do you want to start your lyrics with?\n > ")
 	print("Alright, here's your lyrics:")
 	print(generateLyrics(startWord, lyricsProbDict))
-	print("lyricsFreqDict is ", lyricsFreqDict['love'])
-	print("lyricsProbDict is ", lyricsProbDict['love'])
-	print("lyricsFreqDict is ", lyricsFreqDict['fake'])
-	print("lyricsProbDict is ", lyricsProbDict['fake'])
