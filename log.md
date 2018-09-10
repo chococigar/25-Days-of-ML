@@ -6,7 +6,7 @@
 
 **Thoughts** : Multi-lingual training is difficult, as they have different rules (especially Korean, where syllables are composed of 3 consonants and vowels). Might need to attempt Word2Vec to perform better.
 
-**Link of Work:**   [Commit]()
+**Link of Work:**   [Commit](https://github.com/chococigar/100-Days-of-ML/tree/master/Day1_hidden_markov_generator)
 
 ## Day 2 : September 7th, 2018
  
@@ -14,7 +14,7 @@
 
 **Thoughts** : I need a gpu
 
-**Link of Work:**   [Commit]()
+**Link of Work:**   [Commit](https://github.com/chococigar/100-Days-of-ML/tree/master/Day2_word2vec)
 
 ## Day 3 : September 10th, 2018 
 
@@ -24,4 +24,4 @@ _(technically including 9th)_
 
 **Thoughts** : Realized a lot more data is needed, w2v is the way, K-pop lyrics is difficult as english phrases and korean phrases are so stochastically knit together.
 
-**Link of Work:**   [Commit]()
+**Link of Work:**   [Commit](https://github.com/chococigar/100-Days-of-ML/tree/master/Day3_NLP)
