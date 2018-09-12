@@ -25,3 +25,14 @@ _(technically including 9th)_
 **Thoughts** : Realized a lot more data is needed, w2v is the way, K-pop lyrics is difficult as english phrases and korean phrases are so stochastically knit together.
 
 **Link of Work:**   [Commit](https://github.com/chococigar/100-Days-of-ML/tree/master/Day3_NLP)
+
+
+## Day 4 : September 12th, 2018 
+ 
+**Today's Progress** : Read/studied various textmining techniques including sent2vec, doc2vec, etc. Studied references mentioned in Prof Sam Bowman's glue. Sought for help on analyzing multilingual BTS texts from colleagues.
+
+**Thoughts** : 
+My mission is to detect which of the following types the fed lyrics are 🙄 : 
+1) "나는 apple 을 먹었다" : Uses English word in Korean phrase under Korean grammatical rule
+2) "I ate a 사과" : Uses Korean word in English phrase under English grammatical rule
+
