@@ -36,3 +36,5 @@ My mission is to detect which of the following types the fed lyrics are 🙄 :
 1) "나는 apple 을 먹었다" : Uses English word in Korean phrase under Korean grammatical rule
 2) "I ate a 사과" : Uses Korean word in English phrase under English grammatical rule
 
+## Day 5 : Oct 9th, 2018
+**Today's Progress** : Using Music21 and Keras, generated kpop songs via an LSTM model.
