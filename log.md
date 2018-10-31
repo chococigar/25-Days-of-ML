@@ -38,3 +38,7 @@ My mission is to detect which of the following types the fed lyrics are 🙄 :
 
 ## Day 5 : Oct 9th, 2018
 **Today's Progress** : Using Music21 and Keras, generated kpop songs via an LSTM model.
+
+## Day 12 : Oct 31th, 2018
+**Today's Progress** : Working with large files on colab, while the files are loading head-started with RL project. Maybe next time, do the required uploads and installations the day before. Files in colab.
+
