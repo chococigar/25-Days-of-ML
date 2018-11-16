@@ -263,8 +263,9 @@ def test_build_nn(build_nn):
         # Check Shape
         assert logits.get_shape().as_list() == test_input_data_shape + [test_vocab_size], \
             'Outputs has wrong shape.  Found shape {}'.format(logits.get_shape())
-        assert final_state.get_shape().as_list() == [test_rnn_layer_size, 2, None, test_rnn_size], \
-            'Final state wrong shape.  Found shape {}'.format(final_state.get_shape())
+        #assert final_state.get_shape().as_list() == [test_rnn_layer_size, 2, None, test_rnn_size], \ erroneous due to TF version
+        assert final_state.get_shape().as_list() == [test_rnn_layer_size, 2, _, test_rnn_size], \
+            'Final state wrong shape.  Found shape {} when correct answer is {}'.format(final_state.get_shape(), [test_rnn_layer_size, 2, _, test_rnn_size])
 
     _print_success_message()
 

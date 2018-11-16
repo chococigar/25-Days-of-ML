@@ -8,7 +8,7 @@ import random, re, os
 
 # freqDict is a dict of dict containing frequencies
 def addToDict(fileName, freqDict):
-	f = open(fileName, 'r')
+	f = open(fileName, 'r', errors='ignore')
 	words = re.sub("\n", " \n", f.read()).lower().split(' ')
 
 	# count frequencies curr -> succ
@@ -53,7 +53,7 @@ def generateLyrics(curr, probDict, T = 200):
 
 if __name__ == '__main__':
 	lyricsFreqDict = {}
-	lyrics_dir = os.environ['OLDPWD']+'/lyrics'
+	lyrics_dir = './../lyrics'
 	for lyrics in os.listdir(lyrics_dir):
 		lyricsProbDict = addToDict(lyrics_dir+"/"+lyrics, lyricsFreqDict)
 
