@@ -53,7 +53,7 @@ def generateLyrics(curr, probDict, T = 200):
 
 if __name__ == '__main__':
 	lyricsFreqDict = {}
-	lyrics_dir = './../lyrics'
+	lyrics_dir = './../BTS_lyrics'
 	for lyrics in os.listdir(lyrics_dir):
 		lyricsProbDict = addToDict(lyrics_dir+"/"+lyrics, lyricsFreqDict)
 
